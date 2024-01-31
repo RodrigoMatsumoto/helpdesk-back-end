@@ -1,6 +1,5 @@
 package com.example.helpdesk.resources.exceptions;
 
-import org.apache.catalina.connector.Request;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;
