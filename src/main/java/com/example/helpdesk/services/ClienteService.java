@@ -2,7 +2,8 @@ package com.example.helpdesk.services;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.function.ObjDoubleConsumer;
+
+import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -15,8 +16,6 @@ import com.example.helpdesk.repositories.ClienteRepository;
 import com.example.helpdesk.repositories.PessoaRepository;
 import com.example.helpdesk.services.exceptions.DataIntegrityViolationException;
 import com.example.helpdesk.services.exceptions.ObjectNotFoundException;
-
-import jakarta.validation.Valid;
 
 @Service
 public class ClienteService {
